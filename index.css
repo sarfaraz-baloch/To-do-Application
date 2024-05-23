@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: min-content;
+    background-color: black;
+    color: white;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* flex-direction: column; */
+    gap: 2vw;
+}
+
+.input-wrapper{
+/* display: block; */
+width: 80%;
+margin: auto;
+border: 10px solid white;
+border-radius: 10px;
+display: flex;
+justify-content: start;
+align-items: start;
+flex-direction: column;
+gap: 2vw;
+padding: 2vw;
+}
+
+input{
+    width:30% ;
+    /* display: block; */
+    padding: 15px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+
+.button{
+    width: 80%;
+    text-align: left;
+    margin: auto;
+    margin-top: 20px;
+}
+
+ul{
+width: 80%;
+margin: auto;
+display: flex;
+justify-content: start;
+align-items: start;
+flex-direction: column;
+gap: 2vw;
+padding: 2vw;
+margin-top: 20px;
+background-color: white;
+color: black;
+}
+
+ul h2{
+    width: 100%;
+    text-align: center;
+    text-decoration: underline;
+    /* padding: 1vw; */
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 100;
+    color: rgb(105, 4, 4);
+    /* border: 10px solid red; */
+}
+
+.button button{
+    width: 20%;
+    padding: 1vw;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    cursor: pointer;
+}
+
+.button button:hover{
+    background-color: orange;
+    color: azure;
+}
+
+li{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    gap :4vw;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 100;
+    font-style: italic;
+
+}
+
+li span{
+    display: flex;
+    gap: 2vw;
+}
+
+li button{
+    width: 40%;
+    padding: 1vw;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    cursor: pointer;
+    /* margin: 10px; */
+}
+
+#del{
+    background-color: rgb(159, 49, 49);
+}
+
+#edit{
+    background-color: rgb(72, 72, 87);
+}
+
+#result-container{
+    width: 80%;
+    margin: auto;
+    margin-top: 10px;
+    padding: 20px;
+    /* height: 200px; */
+    /* border: 2px solid red; */
+}
+
+#result{
+    border: 10px solid white;
+    border-radius: 10px;
+    text-align: center;
+font-size: 30px;
+font-family: 'Courier New', Courier, monospace;
+font-weight: 100;
+
+}
